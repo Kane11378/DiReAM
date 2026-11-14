@@ -10,7 +10,7 @@ This repository is a **source view of the complete reproducibility package**. It
 
 **Cloning this repository alone is not sufficient to run the saved-result replay commands.** First obtain the complete archive and extract it into `reproducibility/` as described below. The supplied replay entry point checks the entire original package before running; a partial source checkout will fail that check by design.
 
-During peer review, access to the complete archive is supplied with the manuscript. The public archival citation will be added here when available. Use the archive associated with the manuscript version being evaluated; a private review link is not embedded in this public source repository.
+The complete reproduction archive has a **reserved Figshare DOI: [10.6084/m9.figshare.34894161](https://doi.org/10.6084/m9.figshare.34894161)**. The Figshare record is still private; this DOI will become active when the record is published. During peer review, download access is supplied with the manuscript. Use the archive associated with the manuscript version being evaluated; a private review link is not embedded in this public source repository.
 
 ## Prepare the complete package
 
@@ -90,6 +90,6 @@ The [original-image inference guide](reproducibility/docs/INFERENCE.md) document
 
 ## Citation and licensing
 
-[CITATION.cff](CITATION.cff) records the software title and authors. The associated work is a manuscript; no journal acceptance, publication DOI or archive DOI is claimed here. Cite the specific archived software version when its DOI is available.
+[CITATION.cff](CITATION.cff) records the software title and authors. The associated work is a manuscript; no journal acceptance or article publication DOI is claimed here. The reserved Figshare DOI above identifies the complete reproduction archive, not the compact GitHub source view. Once the archive is published, cite the verified archive version corresponding to the manuscript results.
 
 The Apache-2.0 grant applies to the DiReAM-authored contributions identified in [`SOFTWARE_LICENSE_FILES.json`](reproducibility/SOFTWARE_LICENSE_FILES.json), under the limits in [`LICENSE_SCOPE.md`](reproducibility/LICENSE_SCOPE.md). Upstream code retains its own terms and attribution. Dataset objects, research observations, model weights and other materials have separate terms; the repository does not apply a blanket software license to them. Read [`NOTICE.md`](reproducibility/NOTICE.md) and the original [`LICENSE`](reproducibility/LICENSE).
