@@ -1,0 +1,70 @@
+{
+  "original-resource/f721601259/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/candle_slot0.npz",
+    "sha256": "c0afc38af7fe2a8e7b8fa74d1cc0331f0c6f53b82a0a2e070dc2d9f5f1a76057"
+  },
+  "original-resource/5418bda917/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/capsules_slot0.npz",
+    "sha256": "f84fec47956e421ce5f5c5a3894a78073a8594848dd9a56de1623a55a6eb8479"
+  },
+  "original-resource/8e504d695b/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/cashew_slot0.npz",
+    "sha256": "5eb430ac4f27289596a0a4988a78bf3d77576ecd2c9fb117723b20fe3fb013e9"
+  },
+  "original-resource/c2bbb15723/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/chewinggum_slot0.npz",
+    "sha256": "979dc1fb88e28435b70c0f40f2d8b400b7690bbdd024a7574ad76daaeffb0442"
+  },
+  "original-resource/89ee540320/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/fryum_slot0.npz",
+    "sha256": "0e051728e19efb0b6d06627a2c6f54aae46903624c683ca2b1719e4c6c6c00ea"
+  },
+  "original-resource/8e5476225e/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/macaroni1_slot0.npz",
+    "sha256": "3d39b08a5767395746075313d4f5e7b10d2760dc03d43a03277be526a24786af"
+  },
+  "original-resource/07c1505030/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/macaroni2_slot0.npz",
+    "sha256": "37236f32fd3378664c482fb469d08ed1530f250f483f2ab8c290f2dc885ca626"
+  },
+  "original-resource/ffedf5f42b/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/pcb1_slot0.npz",
+    "sha256": "2df2738bbc87e8318845f1f7fd83101ca7f548aa44452c97dff5b50134431dce"
+  },
+  "original-resource/6a0d342227/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/pcb2_slot0.npz",
+    "sha256": "852548b5ad006c0f52a4830a2c4954f761a779de3a2cfb331dbf8ea6c3d04f31"
+  },
+  "original-resource/316f3e49a5/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/pcb3_slot0.npz",
+    "sha256": "9b9bec51d7f9fd28eb40fcccf131f8928f5dc535cdf76764f5999f0d483e5b66"
+  },
+  "original-resource/681932141b/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/pcb4_slot0.npz",
+    "sha256": "591833f3fb32fae7ef09b771d0deed97a54605ae089b96e4e41c677186b5f3a6"
+  },
+  "original-resource/d83a90a513/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/pipe_fryum_slot0.npz",
+    "sha256": "119b3cf505be7ed8c5246c2341ad1d1e3743abcaf34b6c45afde88c842d8acfb"
+  },
+  "original-resource/dca219cc78/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/paddy_slot0.npz",
+    "sha256": "5b1c911e4357b3aef9fa75d4b55313fd44d4ca08fca16c7cf34f259ba2d5eab3"
+  },
+  "original-resource/185792989b/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/paddy_slot1.npz",
+    "sha256": "24afbc1351d54f2399dde95332537887ae35e5c9f1aff519e33a5c518f603ca5"
+  },
+  "original-resource/877f4ce54a/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/paddy_slot2.npz",
+    "sha256": "936f44815944c341084cfde880801b985fa43a01d5cc6fb18b8bfdf489a5a505"
+  },
+  "original-resource/078f7648fc/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/paddy_slot3.npz",
+    "sha256": "c0b1f851305562d69e87beeabaaefa51fbb2107b8556168b671bd5b08c451dc7"
+  },
+  "original-resource/27b9b238cd/within_M05_model.npz": {
+    "relative": "protocol/evaluation/normal_metrics/paddy_slot4.npz",
+    "sha256": "5e9e7bf56ad041e47c34acb1e0f479796591aa17e2f7404dba521e5d86f371b9"
+  }
+}

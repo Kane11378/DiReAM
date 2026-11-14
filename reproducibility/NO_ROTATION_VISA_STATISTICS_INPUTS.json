@@ -1,0 +1,51 @@
+{
+  "evaluations": [
+    {
+      "summary": "results/category_panel/SUMMARY.csv",
+      "per_unit": "results/category_panel/PER_UNIT.csv"
+    },
+    {
+      "summary": "results/no_normal_rotation/visa12/SUMMARY.csv",
+      "per_unit": "results/no_normal_rotation/visa12/PER_UNIT.csv"
+    }
+  ],
+  "strata": {
+    "all12": [
+      "candle",
+      "capsules",
+      "cashew",
+      "chewinggum",
+      "fryum",
+      "macaroni1",
+      "macaroni2",
+      "pcb1",
+      "pcb2",
+      "pcb3",
+      "pcb4",
+      "pipe_fryum"
+    ],
+    "prior_used6": [
+      "candle",
+      "capsules",
+      "cashew",
+      "pcb1",
+      "pcb2",
+      "pipe_fryum"
+    ],
+    "remaining6": [
+      "chewinggum",
+      "fryum",
+      "macaroni1",
+      "macaroni2",
+      "pcb3",
+      "pcb4"
+    ]
+  },
+  "comparisons": [
+    [
+      "within_M05_FC4",
+      "AnomalyDINO_F_norot"
+    ]
+  ],
+  "cohort": "expanded_normal_budget_official12_norot_added"
+}

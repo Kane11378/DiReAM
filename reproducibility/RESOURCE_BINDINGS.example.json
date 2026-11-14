@@ -1,0 +1,12 @@
+{
+  "schema": "diream-explicit-reader-resources-v1",
+  "weights": {
+    "anomalydino": "REPLACE_WITH_YOUR_PATH/dinov2_vits14_pretrain.pth"
+  },
+  "image_sources": {
+    "VisA": "REPLACE_WITH_YOUR_PATH/VisA_20220922.tar",
+    "MANTA": "REPLACE_WITH_YOUR_PATH/paddy_official_50906889.tar.gz"
+  },
+  "mhpc_torch_hub": "REPLACE_WITH_YOUR_PATH/torch_hub_with_pinned_WR50_V2",
+  "subspace_giant": "REPLACE_WITH_YOUR_PATH/dinov2-with-registers-giant"
+}

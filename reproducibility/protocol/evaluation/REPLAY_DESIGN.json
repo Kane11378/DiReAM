@@ -1,0 +1,39 @@
+{
+  "complete_profiles": [
+    [
+      "I_W_FC4",
+      "B"
+    ],
+    [
+      "I_W_U",
+      "B"
+    ],
+    [
+      "M_W_FC4",
+      "B"
+    ],
+    [
+      "M_W_U",
+      "B"
+    ],
+    [
+      "N_W_F0",
+      "B"
+    ],
+    [
+      "N_W_U",
+      "B"
+    ],
+    [
+      "NativeNoRot_exact",
+      "B"
+    ],
+    [
+      "NativeNoRot_full",
+      "full"
+    ]
+  ],
+  "source": "Fixed original complete category profiles; no rounded result table used to choose profiles",
+  "bootstrap_seed": 20261022,
+  "bootstrap_replicates": 10000
+}

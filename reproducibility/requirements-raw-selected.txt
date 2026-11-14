@@ -1,0 +1,11 @@
+# Selected directional/native raw path; recorded Windows environment.
+# Install torch/torchvision from the matching official cu130 wheel index.
+# These requirements have not been installed afresh for this distribution.
+torch==2.13.0+cu130
+torchvision==0.28.0+cu130
+numpy==2.5.2
+scipy==1.18.1
+Pillow==12.3.0
+opencv-python-headless==5.0.0.93
+scikit-learn==1.9.1
+tqdm==4.70.1

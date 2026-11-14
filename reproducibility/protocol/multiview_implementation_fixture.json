@@ -1,0 +1,508 @@
+{
+  "schema": "complete-method-comparison-v1",
+  "scope": "Seen paddy implementation fixture,4fit normals/2cal/2anomalous+2normal queries; all5realviews intact; no efficacy selection",
+  "groups": {
+    "paddy": {
+      "reference": [
+        {
+          "global_identity": "manta:paddy:01548",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_01548.png",
+          "rgb_offset_data_uncompressed": 1848421376,
+          "rgb_member_bytes": 362584,
+          "source_payload_sha256": "c7c2f1a7b5f59f1726426ba75a4d5bae15e054b380139e6a996c6a53d2a1e867",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              300,
+              225
+            ],
+            [
+              300,
+              0,
+              600,
+              225
+            ],
+            [
+              600,
+              0,
+              900,
+              225
+            ],
+            [
+              900,
+              0,
+              1200,
+              225
+            ],
+            [
+              1200,
+              0,
+              1500,
+              225
+            ]
+          ],
+          "composite_wh": [
+            1500,
+            225
+          ]
+        },
+        {
+          "global_identity": "manta:paddy:01020",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_01020.png",
+          "rgb_offset_data_uncompressed": 1629246976,
+          "rgb_member_bytes": 356964,
+          "source_payload_sha256": "7b86618754e8ea06527e3ceb0737a2c134607b4a0a6eb1752e5a9e08b45d98ef",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              180,
+              330
+            ],
+            [
+              180,
+              0,
+              360,
+              330
+            ],
+            [
+              360,
+              0,
+              540,
+              330
+            ],
+            [
+              540,
+              0,
+              720,
+              330
+            ],
+            [
+              720,
+              0,
+              900,
+              330
+            ]
+          ],
+          "composite_wh": [
+            900,
+            330
+          ]
+        },
+        {
+          "global_identity": "manta:paddy:00624",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_00624.png",
+          "rgb_offset_data_uncompressed": 1464312832,
+          "rgb_member_bytes": 460369,
+          "source_payload_sha256": "e9f0bcc69df9800daf6eca4dfc9f8aefa814189a766a6524dc20c41941a61e63",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              261,
+              330
+            ],
+            [
+              261,
+              0,
+              522,
+              330
+            ],
+            [
+              522,
+              0,
+              783,
+              330
+            ],
+            [
+              783,
+              0,
+              1044,
+              330
+            ],
+            [
+              1044,
+              0,
+              1305,
+              330
+            ]
+          ],
+          "composite_wh": [
+            1305,
+            330
+          ]
+        },
+        {
+          "global_identity": "manta:paddy:03716",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_03716.png",
+          "rgb_offset_data_uncompressed": 2803355136,
+          "rgb_member_bytes": 346175,
+          "source_payload_sha256": "3a54c61012093c973b1e9752261846150d8c7e85d243d418dcc0da3911ff7624",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              180,
+              309
+            ],
+            [
+              180,
+              0,
+              360,
+              309
+            ],
+            [
+              360,
+              0,
+              540,
+              309
+            ],
+            [
+              540,
+              0,
+              720,
+              309
+            ],
+            [
+              720,
+              0,
+              900,
+              309
+            ]
+          ],
+          "composite_wh": [
+            900,
+            309
+          ]
+        }
+      ],
+      "calibration": [
+        {
+          "global_identity": "manta:paddy:01528",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_01528.png",
+          "rgb_offset_data_uncompressed": 1840286720,
+          "rgb_member_bytes": 446436,
+          "source_payload_sha256": "258c01865021e8dba6612df53e6f86315cf97c690fbf42f2a31f18a580f2e180",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              300,
+              288
+            ],
+            [
+              300,
+              0,
+              600,
+              288
+            ],
+            [
+              600,
+              0,
+              900,
+              288
+            ],
+            [
+              900,
+              0,
+              1200,
+              288
+            ],
+            [
+              1200,
+              0,
+              1500,
+              288
+            ]
+          ],
+          "composite_wh": [
+            1500,
+            288
+          ]
+        },
+        {
+          "global_identity": "manta:paddy:01081",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/train/good/grain_paddy_01081.png",
+          "rgb_offset_data_uncompressed": 1654887936,
+          "rgb_member_bytes": 362137,
+          "source_payload_sha256": "26d0a764d626bb16a9703851df9e37526879fb756bb76a6cffd4793a4907ee53",
+          "gt_member": null,
+          "gt_offset_data_uncompressed": null,
+          "gt_member_bytes": 0,
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              312,
+              225
+            ],
+            [
+              312,
+              0,
+              624,
+              225
+            ],
+            [
+              624,
+              0,
+              936,
+              225
+            ],
+            [
+              936,
+              0,
+              1248,
+              225
+            ],
+            [
+              1248,
+              0,
+              1560,
+              225
+            ]
+          ],
+          "composite_wh": [
+            1560,
+            225
+          ]
+        }
+      ],
+      "query": [
+        {
+          "global_identity": "manta:paddy:04159",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/test/mold/grain_paddy_04159.png",
+          "rgb_offset_data_uncompressed": 939432960,
+          "rgb_member_bytes": 414695,
+          "source_payload_sha256": "c44edd84fb5544f8547a72bd7f1ea9e9ca0070fefcefc12d0638b14c0d7158c4",
+          "label_stratum": "anomaly",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              312,
+              237
+            ],
+            [
+              312,
+              0,
+              624,
+              237
+            ],
+            [
+              624,
+              0,
+              936,
+              237
+            ],
+            [
+              936,
+              0,
+              1248,
+              237
+            ],
+            [
+              1248,
+              0,
+              1560,
+              237
+            ]
+          ],
+          "composite_wh": [
+            1560,
+            237
+          ],
+          "GT_payload_sha256": "869a57daa5dba742857e84e67ac41e0650ae8cbaeac85015d0f17890caf59f18",
+          "gt_member": "paddy/ground_truth/mold/grain_paddy_04159.png",
+          "gt_member_bytes": 2964,
+          "gt_offset_data_uncompressed": 1253888
+        },
+        {
+          "global_identity": "manta:paddy:04403",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/test/multi_anomalies/grain_paddy_04403.png",
+          "rgb_offset_data_uncompressed": 1037564928,
+          "rgb_member_bytes": 588078,
+          "source_payload_sha256": "344bad0e3049590573538148b8aab2717ab2c812907e03ce7446a0280019eef8",
+          "label_stratum": "anomaly",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              261,
+              393
+            ],
+            [
+              261,
+              0,
+              522,
+              393
+            ],
+            [
+              522,
+              0,
+              783,
+              393
+            ],
+            [
+              783,
+              0,
+              1044,
+              393
+            ],
+            [
+              1044,
+              0,
+              1305,
+              393
+            ]
+          ],
+          "composite_wh": [
+            1305,
+            393
+          ],
+          "GT_payload_sha256": "e7f6514ea52faa82f69041410a246117feb88687c36732916ac066ab9639a6eb",
+          "gt_member": "paddy/ground_truth/multi_anomalies/grain_paddy_04403.png",
+          "gt_member_bytes": 5345,
+          "gt_offset_data_uncompressed": 2481664
+        },
+        {
+          "global_identity": "manta:paddy:06591",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/test/good/grain_paddy_06591.png",
+          "rgb_offset_data_uncompressed": 831702528,
+          "rgb_member_bytes": 381500,
+          "source_payload_sha256": "6b33be121e7a9bd13edfe822b751b64f45669439a0f081198f01734bfde9163d",
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              183,
+              339
+            ],
+            [
+              183,
+              0,
+              366,
+              339
+            ],
+            [
+              366,
+              0,
+              549,
+              339
+            ],
+            [
+              549,
+              0,
+              732,
+              339
+            ],
+            [
+              732,
+              0,
+              915,
+              339
+            ]
+          ],
+          "composite_wh": [
+            915,
+            339
+          ]
+        },
+        {
+          "global_identity": "manta:paddy:06128",
+          "source": "MANTA",
+          "category": "paddy",
+          "rgb_member": "paddy/test/good/grain_paddy_06128.png",
+          "rgb_offset_data_uncompressed": 644014080,
+          "rgb_member_bytes": 409352,
+          "source_payload_sha256": "f7947e7d8171963a09adce1abecabf4b053f6ff23233f56938ef0acb9b3e76f8",
+          "label_stratum": "normal",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              195,
+              351
+            ],
+            [
+              195,
+              0,
+              390,
+              351
+            ],
+            [
+              390,
+              0,
+              585,
+              351
+            ],
+            [
+              585,
+              0,
+              780,
+              351
+            ],
+            [
+              780,
+              0,
+              975,
+              351
+            ]
+          ],
+          "composite_wh": [
+            975,
+            351
+          ]
+        }
+      ]
+    }
+  },
+  "sources": {
+    "paddy": {
+      "archive_bytes": 2759300051,
+      "archive_sha256": "32df00cc1c8fb41a140d6607f49a1dee9de0fabf7c977bdda89f235584cc8c14",
+      "official_url": "https://ndownloader.figshare.com/files/50906889",
+      "license_note": "Project states CC BY-NC-SA4.0; Figshare metadata states CC BY4.0; retain both source statements, current use noncommercial."
+    }
+  }
+}

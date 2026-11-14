@@ -1,0 +1,530 @@
+{
+  "schema": "complete-method-comparison-v1",
+  "scope": "Seen candle implementation fixture:16 normal fit,2normal calibration,4queries; no efficacy/selection claim; balanced2anomalous/2normal queries selected in existing fixed order for defined image metrics, not on efficacy",
+  "archive_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+  "archive_bytes": 1929840640,
+  "groups": {
+    "candle": {
+      "reference": [
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0052.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0052.JPG",
+          "rgb_offset_data_uncompressed": 56640512,
+          "rgb_member_bytes": 113566,
+          "source_payload_sha256": "2a1007504735c7a02c7ddc0ee5d606c8de80fab726ee3f8ba5ae8deb3275155a",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0146.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0146.JPG",
+          "rgb_offset_data_uncompressed": 53041152,
+          "rgb_member_bytes": 116834,
+          "source_payload_sha256": "13efd9c328ef28de11b5190dde1dd04457b4f05d308e4d769d67ee12b4c24ce3",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0036.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0036.JPG",
+          "rgb_offset_data_uncompressed": 21100544,
+          "rgb_member_bytes": 117847,
+          "source_payload_sha256": "c906b71af8a3e6119fc225d6b580602c15d8596cf9d6fc3417b98e57bfe213bd",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0983.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0983.JPG",
+          "rgb_offset_data_uncompressed": 101604864,
+          "rgb_member_bytes": 124707,
+          "source_payload_sha256": "9d374466f04831febeef7f5aef48db01a82b0218df176bc5d4f04ed0b66ffd3c",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0681.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0681.JPG",
+          "rgb_offset_data_uncompressed": 69059584,
+          "rgb_member_bytes": 110078,
+          "source_payload_sha256": "8009e505e873269e3906b2910eccf27332d7e277560bde05f960f71f4ba67b49",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0806.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0806.JPG",
+          "rgb_offset_data_uncompressed": 98082816,
+          "rgb_member_bytes": 115120,
+          "source_payload_sha256": "bfa3387161dddb1106d2611f0c047084c84be6b7457e8ccd5ade9942bc042ee3",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0597.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0597.JPG",
+          "rgb_offset_data_uncompressed": 30700032,
+          "rgb_member_bytes": 111647,
+          "source_payload_sha256": "a054e4e345c1889d087c0a3abcf4c703a805136a9974618058d7c0f1c51679a8",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0140.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0140.JPG",
+          "rgb_offset_data_uncompressed": 30361600,
+          "rgb_member_bytes": 114944,
+          "source_payload_sha256": "a22bc50f2e85a96d38c37d97dc4f292323bc438108f1fa59f4134a7d7b0c32d0",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0647.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0647.JPG",
+          "rgb_offset_data_uncompressed": 11534336,
+          "rgb_member_bytes": 116055,
+          "source_payload_sha256": "c49ab044df62dce7a311500007698f7c6460e283c6edd1ed83fc0c9b7b3f9661",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0082.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0082.JPG",
+          "rgb_offset_data_uncompressed": 83905536,
+          "rgb_member_bytes": 117789,
+          "source_payload_sha256": "32d6c26fcfae8fbaf0c3976e75c4a4703bdd7900a4ded50d45517eb1b7d459be",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0692.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0692.JPG",
+          "rgb_offset_data_uncompressed": 16356352,
+          "rgb_member_bytes": 111631,
+          "source_payload_sha256": "894f3e07b32ce72fcbfac9b7c89fd19775fdc6291504c5cee9ea8ceb176c913b",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0637.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0637.JPG",
+          "rgb_offset_data_uncompressed": 123744768,
+          "rgb_member_bytes": 113992,
+          "source_payload_sha256": "ad1c20928f66fa1b57bc8512353e415b1cd771ed819fb3363e64d9a269ba484e",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0391.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0391.JPG",
+          "rgb_offset_data_uncompressed": 36455936,
+          "rgb_member_bytes": 123527,
+          "source_payload_sha256": "bd64652fc2bdf68c4d201dfd2ccac963b15b7964c1b9692f8bfd9c7079fde296",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0149.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0149.JPG",
+          "rgb_offset_data_uncompressed": 96307712,
+          "rgb_member_bytes": 127531,
+          "source_payload_sha256": "625e33f48d42e0569021848e25df8b043f015f0e43155b0b9bb7e6ee8756b6e8",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0551.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0551.JPG",
+          "rgb_offset_data_uncompressed": 50669056,
+          "rgb_member_bytes": 123219,
+          "source_payload_sha256": "d7c4b84284d014cbe4fac60ee8638a4ebd986dc63bb63293cfcbd556329caa02",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0259.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0259.JPG",
+          "rgb_offset_data_uncompressed": 121996800,
+          "rgb_member_bytes": 112732,
+          "source_payload_sha256": "2327cc0c8574e2ce7f7dad3e3ef0ea99a3a7a736d162214db26c9efdebf54645",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        }
+      ],
+      "calibration": [
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0847.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0847.JPG",
+          "rgb_offset_data_uncompressed": 41940992,
+          "rgb_member_bytes": 122383,
+          "source_payload_sha256": "8756b64d8fe898bb8160cc7a5fdcbbfdc83b8e49b3fdfb153d9df26153f0e320",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0620.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0620.JPG",
+          "rgb_offset_data_uncompressed": 117733888,
+          "rgb_member_bytes": 116074,
+          "source_payload_sha256": "c5b00b8fc7110c751adfe56f5c8be73189ff3e794c40a545c5848cdccb53282d",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        }
+      ],
+      "query": [
+        {
+          "global_identity": "visa:candle/Data/Images/Anomaly/000.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Anomaly/000.JPG",
+          "rgb_offset_data_uncompressed": 11304960,
+          "rgb_member_bytes": 119368,
+          "source_payload_sha256": "c004dbc05698f01cf415e07d2a8cf8fef48aa19516eece6600e13f92f1f788b7",
+          "label_stratum": "anomaly",
+          "gt_member": "candle/Data/Masks/Anomaly/000.png",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Anomaly/001.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Anomaly/001.JPG",
+          "rgb_offset_data_uncompressed": 57344,
+          "rgb_member_bytes": 110454,
+          "source_payload_sha256": "c697ce4e2176c0de5d9f3ba8f38cd5acf99c61be5f91656ebb49c86652875f9a",
+          "label_stratum": "anomaly",
+          "gt_member": "candle/Data/Masks/Anomaly/001.png",
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0011.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0011.JPG",
+          "rgb_offset_data_uncompressed": 71390720,
+          "rgb_member_bytes": 119611,
+          "source_payload_sha256": "26da76bd9dbc5212bb4ae59a394aeb51a624ee42a67a318671fe02cdcb52443f",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        },
+        {
+          "global_identity": "visa:candle/Data/Images/Normal/0013.JPG",
+          "source": "VisA",
+          "category": "candle",
+          "rgb_member": "candle/Data/Images/Normal/0013.JPG",
+          "rgb_offset_data_uncompressed": 100894208,
+          "rgb_member_bytes": 116564,
+          "source_payload_sha256": "3a94c3ff1a279dc3915aeba8a4a94a6831b6738a1107b4a579e6bcd9e417e512",
+          "label_stratum": "normal",
+          "gt_member": null,
+          "real_view_boxes": [
+            [
+              0,
+              0,
+              1284,
+              1168
+            ]
+          ],
+          "composite_wh": [
+            1284,
+            1168
+          ]
+        }
+      ]
+    }
+  },
+  "prior_used_for_operator_selection": [
+    "candle",
+    "capsules",
+    "cashew",
+    "pipe_fryum",
+    "pcb1",
+    "pcb2"
+  ]
+}

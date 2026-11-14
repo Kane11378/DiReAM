@@ -1,0 +1,20 @@
+{
+  "schema": "diream-reader-resource-manifest-v1",
+  "bindings_template": "RESOURCE_BINDINGS.example.json",
+  "resource_checker": "code/inference.py check-resources",
+  "fixed_budgets": "protocol/evaluation/parent/protocol/RESOLVED_BUDGETS.json",
+  "membership_sources": [
+    "protocol/category_panel.json",
+    "protocol/multiview_common.json"
+  ],
+  "normal_metrics": "protocol/evaluation/METRIC_PATH_MAP.json",
+  "state_budgets": "results/evaluation/STATE_BUDGETS.csv",
+  "timing_scopes": "source_data/TIMING_SCOPE.csv",
+  "terms": "DEPENDENCIES.md",
+  "archive_identity_sources": [
+    "protocol/model_pins.json",
+    "base/protocol/models.json"
+  ],
+  "large_arrays_embedded": false,
+  "raw_execution": "See docs/INFERENCE.md for resource and device-check requirements"
+}

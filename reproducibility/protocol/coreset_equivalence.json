@@ -1,0 +1,70 @@
+{
+  "status": "PASS_FULL_INDEX_BANK_AND_DISTANCES_BITWISE",
+  "upstream_sampler_sha256": "39612cd2b486865ece304348f740f4bc700a1c2e8684fbab3c2ed016c7801f2d",
+  "numeric_class_sha256": "f6fe21f1d1f0e14c6ffd582db1ed3579cdd8c7cf9bb07a7444de62e2a4341f90",
+  "public_runtime_sha256": "a6aec9ed1762da315d15dd8db6ae589fc37310910e9f7706bfa42cd04d9d7ed3",
+  "checks": [
+    {
+      "kind": "literal_distance",
+      "columns": 10,
+      "bitwise": true
+    },
+    {
+      "kind": "literal_distance",
+      "columns": 1,
+      "bitwise": true
+    },
+    {
+      "kind": "literal_distance",
+      "columns": 1,
+      "bitwise": true
+    },
+    {
+      "kind": "literal_distance",
+      "columns": 1,
+      "bitwise": true
+    },
+    {
+      "case": "complete_native_F16",
+      "source_rows": 143360,
+      "selected_rows": 1433,
+      "indices_sha256": "77a6760c1caec4c9a80ec815902b6e9ba863c8a8391333a8331993009f1e1e36",
+      "whole_indices_bitwise": true,
+      "selected_vectors_bitwise": true
+    },
+    {
+      "case": "within_M05",
+      "source_rows": 16384,
+      "selected_rows": 655,
+      "indices_sha256": "ae450cc212cf29c493c865b4c69db66e6a85c6177f6feee20da937ffdb7969a5",
+      "whole_indices_bitwise": true,
+      "selected_vectors_bitwise": true
+    },
+    {
+      "case": "meanCov_M07",
+      "source_rows": 16384,
+      "selected_rows": 655,
+      "indices_sha256": "8f732b7d9216ddb099b256a36800bd4e60d91bed20049f3c5ff824564542eae7",
+      "whole_indices_bitwise": true,
+      "selected_vectors_bitwise": true
+    },
+    {
+      "case": "raw_mean",
+      "source_rows": 16384,
+      "selected_rows": 655,
+      "indices_sha256": "475341f5ec6520a0013f6e73eb3755312aaa43e42d363dc2c3f890a0cb57faaf",
+      "whole_indices_bitwise": true,
+      "selected_vectors_bitwise": true
+    },
+    {
+      "case": "within_N01_fast",
+      "source_rows": 65536,
+      "selected_rows": 655,
+      "indices_sha256": "37891028e63df90f17ec2703aeecf09b7312684fcee117c0a2b251c177bb8989",
+      "whole_indices_bitwise": true,
+      "selected_vectors_bitwise": true
+    }
+  ],
+  "scope": "Whole original index sequences and selected vectors on complete native16normal source and all4controlled bank geometries; actual CUDA literal-distance/tie/mutation tests. Same unmodified official projection, greedy loop, reduction/argmax/tie rule and return ordering. No gradient is ever consumed; immutable A-norm is forward-identical independent of B. Pilot timing is an implementation observation, not a full-category speedup claim.",
+  "source_execution_optimization_sha256": "2bb7f8037388b4f1844642d369ecbd0098a18c2b4b85f9abc045bdca07abfbfd"
+}

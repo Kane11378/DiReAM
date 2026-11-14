@@ -1,0 +1,25 @@
+{
+  "schema": "explicit-field-evaluation-inputs-v1",
+  "evaluations": [
+    {
+      "summary": "REPLACE_WITH_ACTUAL_EVALUATION_SUMMARY_CSV",
+      "per_unit": "REPLACE_WITH_ACTUAL_EVALUATION_PER_UNIT_CSV"
+    }
+  ],
+  "strata": {
+    "seen_implementation_fixture": [
+      "candle"
+    ]
+  },
+  "primary": "within_M05_FC4",
+  "comparators": [
+    "meanCov_M07_FC4",
+    "raw_mean_FC4",
+    "within_N01_fast_F0",
+    "MH_PatchCore",
+    "SubspaceAD",
+    "AnomalyDINO_F",
+    "AnomalyDINO_F_coreset01"
+  ],
+  "cohort": "Explicit actual field-evaluation outputs, not expected CSV targets"
+}

@@ -1,0 +1,15 @@
+Licensing information
+
+The DiReAM-authored software contributions identified in
+reproducibility/SOFTWARE_LICENSE_FILES.json are licensed under the Apache
+License, Version 2.0, subject to reproducibility/LICENSE_SCOPE.md.
+The complete Apache-2.0 terms are in reproducibility/LICENSE.
+
+Pre-existing upstream portions retain their original licenses, copyright
+headers and notices. Research data, photographs, annotations, model weights
+and other non-software objects are not covered by a blanket Apache-2.0 grant.
+See reproducibility/NOTICE.md and reproducibility/third_party/ for the
+applicable source-specific notices and terms.
+
+This file points to the existing grants and scope. It does not replace or
+expand them.

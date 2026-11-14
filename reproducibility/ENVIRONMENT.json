@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "torchvision": "0.28.0+cu130",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "Pillow": "12.3.0",
+    "opencv-python-headless": "5.0.0.93",
+    "scikit-learn": "1.9.1",
+    "transformers": "4.57.6",
+    "safetensors": "0.8.0",
+    "PyYAML": "6.0.3",
+    "timm": "1.0.30",
+    "tqdm": "4.70.1",
+    "matplotlib": "3.11.2",
+    "click": "8.5.0",
+    "joblib": "1.6.0",
+    "pandas": "3.0.6",
+    "psutil": "7.2.2",
+    "faiss-cpu": "1.15.1"
+  },
+  "optional_vendor_paths": {
+    "kornia": "NOT_INSTALLED_NOT_USED_BY_SELECTED_PATHS",
+    "scikit-image": "NOT_INSTALLED_NOT_USED_BY_SELECTED_PATHS"
+  },
+  "scope": "Reference workstation package versions for the supplied observations and reader commands. Other platforms/devices are untested; optional vendor modules are distinct from the selected direct execution paths."
+}

@@ -1,0 +1,21 @@
+{
+  "wide_resnet50_2_v2_sha256": "9ba9bcbebc349d733a72eb7608143fd754e4689ac8d8ce2916ca0bdff6443950",
+  "giant_files": [
+    {
+      "file": "config.json",
+      "sha256": "1140c60f69c16db9074cf46c1a85fff505f9b47591030cf19c01f929e8018aec",
+      "bytes": 1002
+    },
+    {
+      "file": "model.safetensors",
+      "sha256": "c03832d44691e99b62ae28c4dfa2f134853a3614b3756c94f525109cce5a5051",
+      "bytes": 4546030112
+    },
+    {
+      "file": "preprocessor_config.json",
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+      "bytes": 436
+    }
+  ],
+  "native_s14_buffer_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"
+}

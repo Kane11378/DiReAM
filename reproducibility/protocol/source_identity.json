@@ -1,0 +1,33 @@
+{
+  "native_Mahalanobis_PatchCore": {
+    "url": "https://github.com/NickF93/MH-PatchCore",
+    "commit": "fecde8b1c76463041102d49d999050ffe17a02c6",
+    "license": "MIT",
+    "modification": "Upstream numerical implementation retained. A canonical-slot module docstring omits an upstream maintenance token; executable operations are unchanged. The manifest adapter retains canonical geometry/reducer/shrinkage/merge-reduce/Eq7. CUDA backbone/exact backend is a declared study adaptation."
+  },
+  "native_SubspaceAD": {
+    "url": "https://github.com/CLendering/SubspaceAD",
+    "commit": "ef56d5c8ab2f1feb7dda1c93b25cc3f73f0960d7",
+    "license": "Apache-2.0",
+    "modification": "Unmodified vendor; full-shot giant at 672 pixels with seven states and 99% PCA retention. The useful-output graph was checked for exact equivalence; the 30-fold augmentation is excluded."
+  },
+  "base_reader": {
+    "bytes": 20479853170,
+    "sha256": "1d532d0a7030b061ae4b3634b1403270b6a3024fa180431fc9b884ab17e5503c"
+  },
+  "compact_F": "Fixed 1% official approximate-greedy compression of the complete native F source. Explicit adaptation, not the native default.",
+  "native_AnomalyDINO_no_normal_rotation": {
+    "paper_version": "https://arxiv.org/html/2405.14529v3",
+    "official_commit": "b9d1c2648e3a5247437d4d953d907a8f3d994457",
+    "source_parameter_semantics": {
+      "n_ref_samples=-1": "use all available normal reference samples; does not itself disable augmentation",
+      "VisA masking_only": "rotation=False, query masking=True"
+    },
+    "local_profiles": [
+      "AnomalyDINO_F_norot",
+      "AnomalyDINO_U_pool_norot"
+    ],
+    "local_fit": "Direct original normal view to pinned source feature path, without augment_image or warp; unmasked normalized normal descriptors and full memory",
+    "comparison_scope": "VisA source full-shot preprocessing under the study's explicit calibration holdout and evaluation; paddy is a five-view unmasked pooled task adaptation, not a published MANTA replication"
+  }
+}

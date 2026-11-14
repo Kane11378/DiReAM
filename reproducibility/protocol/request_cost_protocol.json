@@ -1,0 +1,119 @@
+{
+  "original_protocol_sha256": "1552b9dd4a4e0fa2b770aa8b139e030f92f06a7b887eb56bc448b3fa4597ce27",
+  "normal_units_per_configuration": 3,
+  "warmup_requests": 2,
+  "resident_cycles": 9,
+  "resident_request_count": 27,
+  "configs": [
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "MH_PatchCore"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "SubspaceAD"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "SubspaceAD_as_released"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "SubspaceAD_slot"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "within_M05"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "meanCov_M07"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "within_N01_fast"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "AnomalyDINO_U_pool"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "AnomalyDINO_U_pool_coreset01"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "AnomalyDINO_U_slot"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "AnomalyDINO_U_slot_coreset01"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "MH_PatchCore"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "SubspaceAD"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "AnomalyDINO_F"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "AnomalyDINO_F_coreset01"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "within_M05_FC4"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "meanCov_M07_FC4"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "raw_mean_FC4"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "within_N01_fast_F0"
+    },
+    {
+      "cohort": "visa12",
+      "category": "chewinggum",
+      "method": "AnomalyDINO_F_norot"
+    },
+    {
+      "cohort": "common656",
+      "category": "paddy",
+      "method": "AnomalyDINO_U_pool_norot"
+    }
+  ],
+  "input_rule": "First three ordered normal calibration units of each representative category in the corresponding supplied manifest.",
+  "boundaries": "Fresh process; CUDA context/model and fitted-state initialization/first raw request/resident requests separate. Raw RGB through field and native score. Persistence and expected-output checks outside request timers. Normal preparation and feature acquisition have separate observation boundaries. OS disk cache is uncontrolled.",
+  "giant_graph": "Primary full-shot29block useful-output graph preserves literal original states29..23; as-released40block/unused-attention computation separately observed on paddy.",
+  "sampling": "Full native memories and fixed1% official approximate-greedy native variants are distinct configurations, with actual vector and byte budgets. No timing or quality of one profile is assigned to another.",
+  "normal_rotation_identity": "Retained native full/1% observations use8normal rotations; the2newfull-memory observations use none. Full-shot normal sample count, augmentation and retained vector count are distinct."
+}

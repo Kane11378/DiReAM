@@ -1,0 +1,13 @@
+{
+  "schema": "explicit-resource-paths-v1",
+  "weights": {
+    "anomalydino": "REPLACE_WITH_PINNED_NO_REGISTER_S14_WEIGHT"
+  },
+  "upstream": {
+    "dinov2": "REPLACE_WITH_PINNED_DINOV2_SOURCE",
+    "anomalydino": "REPLACE_WITH_PINNED_ANOMALYDINO_SOURCE",
+    "patchcore": "REPLACE_WITH_PINNED_PATCHCORE_SOURCE"
+  },
+  "mhpc_torch_hub": "REPLACE_WITH_TORCH_HUB_CONTAINING_V2_CHECKPOINT",
+  "subspace_giant": "REPLACE_WITH_LOCAL_GIANT_REGISTER_MODEL_DIRECTORY"
+}

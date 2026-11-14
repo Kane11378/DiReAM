@@ -1,0 +1,24 @@
+{
+  "evaluations": [
+    {
+      "summary": "results/common_task/SUMMARY.csv",
+      "per_unit": "results/common_task/PER_UNIT.csv"
+    },
+    {
+      "summary": "results/no_normal_rotation/common656/SUMMARY.csv",
+      "per_unit": "results/no_normal_rotation/common656/PER_UNIT.csv"
+    }
+  ],
+  "strata": {
+    "paddy_seen_single_category": [
+      "paddy"
+    ]
+  },
+  "comparisons": [
+    [
+      "within_M05",
+      "AnomalyDINO_U_pool_norot"
+    ]
+  ],
+  "cohort": "common176_seen_paddy_norot_added"
+}

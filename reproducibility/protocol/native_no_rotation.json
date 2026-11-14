@@ -1,0 +1,51 @@
+{
+  "schema": "native-no-normal-rotation-profiles-v1",
+  "source_paper_version": "https://arxiv.org/html/2405.14529v3",
+  "source_paper_locations": [
+    "full-shot statement before Table5",
+    "runtime discussion"
+  ],
+  "official_anomalydino_commit": "b9d1c2648e3a5247437d4d953d907a8f3d994457",
+  "common": {
+    "encoder": "DINOv2 ViT-S/14, pinned original no-register weights and native buffers",
+    "resolution": 448,
+    "geometry": "aspect-preserving short edge with trailing patch14 crop",
+    "normal_rotation": false,
+    "normal_augmentations_per_view": 1,
+    "normal_input_path": "direct_unwarped_rgb",
+    "reference_foreground": false,
+    "memory": "full",
+    "search": "TorchExactNN q_chunk1024 r_chunk65536, original normalized descriptors",
+    "query_readings_per_actual_view": 1,
+    "native_readout": "largest floor1percent query-token distances, maximum if floor is zero; maximum across actual views",
+    "normal_alarm_threshold": "maximum score of the same declared normal calibration units; strict greater-than alarm",
+    "timing": "actual raw RGB request, independent from normal-feature cache reuse"
+  },
+  "profiles": {
+    "AnomalyDINO_F_norot": {
+      "entry": "code/complete_methods.py --method AnomalyDINO_F_norot",
+      "actual_views_per_unit": 1,
+      "query_foreground": true,
+      "reference_policy": "single-image full normal memory",
+      "full_membership": "protocol/category_panel.json",
+      "implementation_fixture": "protocol/implementation_fixture.json",
+      "source_alignment": "source full-shot masking-only preprocessing with this study's explicit normal calibration holdout and declared evaluation endpoints"
+    },
+    "AnomalyDINO_U_pool_norot": {
+      "entry": "code/native_multiview.py --profile AnomalyDINO_U_pool_norot",
+      "actual_views_per_unit": 5,
+      "query_foreground": false,
+      "reference_policy": "pooled full normal memory across actual views",
+      "full_membership": "protocol/multiview_common.json, category paddy only in the reported additional branch",
+      "implementation_fixture": "protocol/multiview_implementation_fixture.json",
+      "source_alignment": "unmasked genuine-multiview task adaptation; the source paper does not report MANTA"
+    }
+  },
+  "evidence_role": "additional comparison on previously seen observations; no new independent confirmation or method tuning",
+  "unsupported_inferences": [
+    "angle0 cache index alone establishes no-warp equivalence",
+    "full memory fixes an augmentation count",
+    "latency or total memory equals the eight-rotation value divided by8",
+    "the two profiles imply a new compression, slot or category matrix"
+  ]
+}

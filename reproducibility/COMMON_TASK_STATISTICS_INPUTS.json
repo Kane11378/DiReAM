@@ -1,0 +1,89 @@
+{
+  "evaluations": [
+    {
+      "summary": "results/common_task/SUMMARY.csv",
+      "per_unit": "results/common_task/PER_UNIT.csv"
+    },
+    {
+      "summary": "results/known_slot_giant/SUMMARY.csv",
+      "per_unit": "results/known_slot_giant/PER_UNIT.csv"
+    },
+    {
+      "summary": "results/native_multiview/SUMMARY.csv",
+      "per_unit": "results/native_multiview/PER_UNIT.csv"
+    }
+  ],
+  "strata": {
+    "MANTA_seen2": [
+      "paddy",
+      "maize"
+    ],
+    "VisA_seen2": [
+      "candle",
+      "pcb2"
+    ]
+  },
+  "comparisons_by_stratum": {
+    "MANTA_seen2": [
+      [
+        "within_M05",
+        "MH_PatchCore"
+      ],
+      [
+        "within_M05",
+        "SubspaceAD"
+      ],
+      [
+        "within_M05",
+        "meanCov_M07"
+      ],
+      [
+        "within_M05",
+        "SubspaceAD_slot"
+      ],
+      [
+        "within_M05",
+        "AnomalyDINO_U_pool"
+      ],
+      [
+        "within_M05",
+        "AnomalyDINO_U_pool_coreset01"
+      ],
+      [
+        "within_M05",
+        "AnomalyDINO_U_slot"
+      ],
+      [
+        "within_M05",
+        "AnomalyDINO_U_slot_coreset01"
+      ],
+      [
+        "SubspaceAD_slot",
+        "SubspaceAD"
+      ],
+      [
+        "AnomalyDINO_U_slot",
+        "AnomalyDINO_U_pool"
+      ],
+      [
+        "AnomalyDINO_U_slot_coreset01",
+        "AnomalyDINO_U_pool_coreset01"
+      ]
+    ],
+    "VisA_seen2": [
+      [
+        "within_M05_FC4",
+        "MH_PatchCore"
+      ],
+      [
+        "within_M05_FC4",
+        "SubspaceAD"
+      ],
+      [
+        "within_M05_FC4",
+        "meanCov_M07_FC4"
+      ]
+    ]
+  },
+  "cohort": "Same seen176normal common-task field-derived scalars; genuine5view MANTA and single-image VisA remain separate strata"
+}

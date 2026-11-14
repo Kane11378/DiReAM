@@ -1,0 +1,283 @@
+{
+  "license_identifier": "Apache-2.0",
+  "copyright_notice": "Copyright 2026 DiReAM contributors",
+  "license_text": "LICENSE",
+  "scope": "Only DiReAM-authored contributions in these software files; data and third-party portions retain separate terms.",
+  "files": [
+    {
+      "path": "RESOURCE_BINDINGS.example.json",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "RESOURCE_PATHS.example.json",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "STATISTICS_INPUTS.example.json",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_baseline_adapters.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_baseline_kernels.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_common.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_dino_encoder.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_dino_matching.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_pdn_geometry.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_search.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "base/code/reader_statistics_core.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/analyze_paired_old_outputs.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/benchmark_requests.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/check_device_evidence.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/complete_methods.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/coreset_runtime.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms.",
+      "upstream_basis": "Extends the separately supplied PatchCore ApproximateGreedyCoresetSampler; inherited Apache-2.0 code/NOTICE remain applicable. The grant covers DiReAM contributions only."
+    },
+    {
+      "path": "code/dataset_bindings.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/directional_adapter/directional_profiles.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/directional_adapter/pinned_directional_profiles.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/directional_adapter/pinned_foreground_policy.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms.",
+      "upstream_basis": "AnomalyDINO compute_background_mask policy; its Apache-2.0 attribution and source identity remain applicable. The grant covers DiReAM contributions only."
+    },
+    {
+      "path": "code/directional_adapter/reader_dino_encoder_source.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/evaluate_predictions.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/evaluation.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/extract_explicit_images.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/feature_adapter/exact_native.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/foreground_policy.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms.",
+      "upstream_basis": "AnomalyDINO compute_background_mask policy; its Apache-2.0 attribution and source identity remain applicable. The grant covers DiReAM contributions only."
+    },
+    {
+      "path": "code/image_inference.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/inference.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/inference_runner.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/matching_backend.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/native_multiview.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/normal_statistics.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/package_integrity.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/panel_statistics.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/public_projection.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/public_raw_preflight.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/public_rebuild_evidence.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/recompute_costs.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/replay.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/request_statistics.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/run_reader_tests.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/saved_results.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/source_identity.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/state_reuse.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "code/state_store.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/timing/replay_timing_extension.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/base/code/reader_common.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/base/code/reader_dino_matching.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/base/code/reader_search.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/base/code/reader_statistics_core.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/code/coreset_runtime.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/reference_reader/code/normal_statistics.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/scripts/recompute_scalar.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/scripts/run_bound_raw.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/scripts/run_checked_stage.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/scripts/unseen_validation.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "requirements-cpu.txt",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "requirements-raw-selected.txt",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/directional_adapter/test_directional_profiles.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/directional_adapter/test_encoding_foreground.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/feature_adapter/test_exact_native.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/fixture_inference_integration.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/test_inference_runner.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/test_request_statistics.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "tests/test_state_reuse.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/study/operators/dino_c4_response.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    },
+    {
+      "path": "extensions/unseen/resources/study/operators/host_original_search.py",
+      "contribution_scope": "DiReAM-authored software contributions only; pre-existing upstream portions retain their original terms."
+    }
+  ]
+}

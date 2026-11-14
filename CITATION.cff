@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, cite the associated DiReAM manuscript and the
+  specific archived software version when its DOI is available.
+type: software
+repository-code: "https://github.com/Kane11378/DiReAM"
+version: "mva-submission-v1"
+date-released: "2026-11-14"
+title: "DiReAM: Directional Aggregation Before Matching for Compact Defect Localization"
+authors:
+  - family-names: Li
+    given-names: Lin
+  - family-names: Wang
+    given-names: Kang
+abstract: >-
+  Research software accompanying the DiReAM manuscript. This source view
+  contains method implementations and documentation; the complete archive
+  supplies the saved experimental observations and scientific figure inputs
+  required by the package-integrity checks and saved-result replay commands.
+keywords:
+  - anomaly localization
+  - visual inspection
+  - directional aggregation
+  - reproducibility
